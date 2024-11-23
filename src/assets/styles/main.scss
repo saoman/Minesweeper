@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #4a90e2;
+  --background-color: #1a1a1a;
+  --cell-size: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  color: white;
+}
+
+// 禁用移动设备上的触摸高亮
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
